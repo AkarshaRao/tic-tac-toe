@@ -174,7 +174,7 @@
             this.XWins.Name = "XWins";
             this.XWins.Size = new System.Drawing.Size(100, 23);
             this.XWins.TabIndex = 12;
-            this.XWins.Text = "label1";
+            this.XWins.Text = "XWins";
             // 
             // OWins
             // 
@@ -182,7 +182,7 @@
             this.OWins.Name = "OWins";
             this.OWins.Size = new System.Drawing.Size(100, 23);
             this.OWins.TabIndex = 13;
-            this.OWins.Text = "label1";
+            this.OWins.Text = "OWins";
             // 
             // Draws
             // 
@@ -190,7 +190,7 @@
             this.Draws.Name = "Draws";
             this.Draws.Size = new System.Drawing.Size(100, 23);
             this.Draws.TabIndex = 14;
-            this.Draws.Text = "label1";
+            this.Draws.Text = "Draws";
             // 
             // Form1
             // 
@@ -213,7 +213,7 @@
             this.Controls.Add(this.A01);
             this.Controls.Add(this.A00);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Tic Tac Toe";
             this.ResumeLayout(false);
 
         }
