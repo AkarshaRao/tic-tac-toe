@@ -47,7 +47,9 @@
             // 
             // A00
             // 
-            this.A00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.A00.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.A00.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A00.ForeColor = System.Drawing.Color.Black;
             this.A00.Location = new System.Drawing.Point(43, 125);
             this.A00.Name = "A00";
             this.A00.Size = new System.Drawing.Size(78, 76);
@@ -57,7 +59,9 @@
             // 
             // A01
             // 
-            this.A01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.A01.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.A01.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A01.ForeColor = System.Drawing.Color.Black;
             this.A01.Location = new System.Drawing.Point(127, 125);
             this.A01.Name = "A01";
             this.A01.Size = new System.Drawing.Size(78, 76);
@@ -67,7 +71,9 @@
             // 
             // A02
             // 
-            this.A02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.A02.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.A02.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A02.ForeColor = System.Drawing.Color.Black;
             this.A02.Location = new System.Drawing.Point(211, 125);
             this.A02.Name = "A02";
             this.A02.Size = new System.Drawing.Size(78, 76);
@@ -77,7 +83,9 @@
             // 
             // A10
             // 
-            this.A10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.A10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.A10.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A10.ForeColor = System.Drawing.Color.Black;
             this.A10.Location = new System.Drawing.Point(43, 207);
             this.A10.Name = "A10";
             this.A10.Size = new System.Drawing.Size(78, 76);
@@ -87,7 +95,9 @@
             // 
             // A11
             // 
-            this.A11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.A11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.A11.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A11.ForeColor = System.Drawing.Color.Black;
             this.A11.Location = new System.Drawing.Point(127, 207);
             this.A11.Name = "A11";
             this.A11.Size = new System.Drawing.Size(78, 76);
@@ -97,7 +107,9 @@
             // 
             // A12
             // 
-            this.A12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.A12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.A12.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A12.ForeColor = System.Drawing.Color.Black;
             this.A12.Location = new System.Drawing.Point(211, 207);
             this.A12.Name = "A12";
             this.A12.Size = new System.Drawing.Size(78, 76);
@@ -107,7 +119,9 @@
             // 
             // A20
             // 
-            this.A20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.A20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.A20.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A20.ForeColor = System.Drawing.Color.Black;
             this.A20.Location = new System.Drawing.Point(43, 289);
             this.A20.Name = "A20";
             this.A20.Size = new System.Drawing.Size(78, 76);
@@ -117,7 +131,9 @@
             // 
             // A21
             // 
-            this.A21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.A21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.A21.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A21.ForeColor = System.Drawing.Color.Black;
             this.A21.Location = new System.Drawing.Point(127, 289);
             this.A21.Name = "A21";
             this.A21.Size = new System.Drawing.Size(78, 76);
@@ -127,7 +143,9 @@
             // 
             // A22
             // 
-            this.A22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.A22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.A22.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A22.ForeColor = System.Drawing.Color.Black;
             this.A22.Location = new System.Drawing.Point(211, 289);
             this.A22.Name = "A22";
             this.A22.Size = new System.Drawing.Size(78, 76);
