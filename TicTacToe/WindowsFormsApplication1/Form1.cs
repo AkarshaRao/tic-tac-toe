@@ -112,8 +112,46 @@ namespace WindowsFormsApplication1
         }
         private void aiturn()
         {
+            if ((((A01.Text == A02.Text) && (A01.Text == "O")) || ((A11.Text == A22.Text) && (A11.Text == "O")) || ((A10.Text == A20.Text) && (A10.Text == "O"))) && (A00.Text == ""))
+            {
+                A00.Text = "O";
+            }
+            else if ((((A00.Text == A10.Text) && (A10.Text == "O")) || ((A11.Text == A02.Text) && (A11.Text == "O")) || ((A21.Text == A22.Text) && (A21.Text == "O"))) && (A20.Text == ""))
+            {
+                A20.Text = "O";
+            }
+            else if ((((A01.Text == A00.Text) && (A01.Text == "O")) || ((A11.Text == A20.Text) && (A20.Text == "O")) || ((A12.Text == A22.Text) && (A12.Text == "O"))) && (A02.Text == ""))
+            {
+                A02.Text = "O";
+            }
+            else if ((((A02.Text == A12.Text) && (A02.Text == "O")) || ((A11.Text == A00.Text) && (A11.Text == "O")) || ((A20.Text == A21.Text) && (A20.Text == "O"))) && (A22.Text == ""))
+            {
+                A22.Text = "O";
+            }
+            //for A10 A01 A21 A12
+            else if ((((A00.Text == A02.Text) && (A00.Text == "O")) || ((A11.Text == A21.Text) && (A21.Text == "O"))) && (A01.Text == ""))
+            {
+                A01.Text = "O";
+            }
+            else if ((((A20.Text == A22.Text) && (A20.Text == "O")) || ((A11.Text == A01.Text) && (A01.Text == "O"))) && (A21.Text == ""))
+            {
+                A21.Text = "O";
+            }
+            else if ((((A00.Text == A20.Text) && (A00.Text == "O")) || ((A11.Text == A12.Text) && (A11.Text == "O"))) && (A10.Text == ""))
+            {
+                A10.Text = "O";
+            }
+            else if ((((A02.Text == A22.Text) && (A02.Text == "O")) || ((A11.Text == A10.Text) && (A11.Text == "O"))) && (A12.Text == ""))
+            {
+                A12.Text = "O";
+            }
+            //for A11
+            else if ((((A22.Text == A00.Text) && (A00.Text == "O")) || ((A02.Text == A20.Text) && (A02.Text == "O")) || ((A01.Text == A21.Text) && (A01.Text == "O")) || ((A12.Text == A10.Text) && (A10.Text == "O"))) && (A11.Text == "") && (A11.Text != "X"))
+            {
+                A11.Text = "O";
+            }
             //for A00 A20 A02 A22
-            if ((((A01.Text == A02.Text) && (A01.Text != "")) || ((A11.Text == A22.Text) && (A11.Text != "")) || ((A10.Text == A20.Text) && (A10.Text != ""))) && (A00.Text == ""))
+            else if ((((A01.Text == A02.Text) && (A01.Text != "")) || ((A11.Text == A22.Text) && (A11.Text != "")) || ((A10.Text == A20.Text) && (A10.Text != ""))) && (A00.Text == ""))
             {
                 A00.Text = "O";
             }
