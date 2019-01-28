@@ -117,30 +117,30 @@ namespace WindowsFormsApplication1
             {
                 A00.Text = "O";
             }
-            else if ((((A01.Text == A00.Text) && (A01.Text != "")) || ((A11.Text == A20.Text) && (A20.Text != "")) || ((A12.Text == A22.Text) && (A12.Text != ""))) && (A02.Text == ""))
-            {
-                A02.Text = "O";
-            }
             else if ((((A00.Text == A10.Text) && (A10.Text != "")) || ((A11.Text == A02.Text) && (A11.Text != "")) || ((A21.Text == A22.Text) && (A21.Text != ""))) && (A20.Text == ""))
             {
                 A20.Text = "O";
             }
+            else if ((((A01.Text == A00.Text) && (A01.Text != "")) || ((A11.Text == A20.Text) && (A20.Text != "")) || ((A12.Text == A22.Text) && (A12.Text != ""))) && (A02.Text == ""))
+            {
+                A02.Text = "O";
+            }           
             else if ((((A02.Text == A12.Text) && (A02.Text != "")) || ((A11.Text == A00.Text) && (A11.Text != "")) || ((A20.Text == A21.Text) && (A20.Text != ""))) && (A22.Text == ""))
             {
                 A22.Text = "O";
             }
             //for A10 A01 A21 A12
-            else if ((((A00.Text == A02.Text) && (A00.Text != "")) || ((A11.Text == A21.Text) && (A11.Text != ""))) && (A02.Text == ""))
+            else if ((((A00.Text == A02.Text) && (A00.Text != "")) || ((A11.Text == A21.Text) && (A21.Text != ""))) && (A01.Text == ""))
             {
                 A01.Text = "O";
-            }
-            else if ((((A00.Text == A20.Text) && (A00.Text != "")) || ((A11.Text == A12.Text) && (A11.Text != ""))) && (A10.Text == ""))
-            {
-                A10.Text = "O";
             }
             else if ((((A20.Text == A22.Text) && (A20.Text != "")) || ((A11.Text == A01.Text) && (A11.Text != ""))) && (A21.Text == ""))
             {
                 A21.Text = "O";
+            }
+            else if ((((A00.Text == A20.Text) && (A00.Text != "")) || ((A11.Text == A12.Text) && (A11.Text != ""))) && (A10.Text == ""))
+            {
+                A10.Text = "O";
             }
             else if ((((A02.Text == A22.Text) && (A02.Text != "")) || ((A11.Text == A10.Text) && (A11.Text != ""))) && (A12.Text == ""))
             {
@@ -156,33 +156,33 @@ namespace WindowsFormsApplication1
             {
                 A11.Text = "O";
             }
-            else if ((A00.Text == ""))
-            {
-                A00.Text = "O";
-            }
             else if ((A01.Text == ""))
             {
                 A01.Text = "O";
             }
-            else if ((A21.Text == ""))
+            else if ((A20.Text == ""))
             {
                 A21.Text = "O";
             }
-            else if ((A22.Text == ""))
+            else if ((A12.Text == ""))
             {
-                A22.Text = "O";
+                A12.Text = "O";
             }
             else if ((A10.Text == ""))
             {
                 A10.Text = "O";
             }
+            else if ((A22.Text == ""))
+            {
+                A22.Text = "O";
+            }
             else if ((A20.Text == ""))
             {
                 A20.Text = "O";
             }
-            else if ((A12.Text == ""))
+            else if ((A00.Text == ""))
             {
-                A12.Text = "O";
+                A00.Text = "O";
             }
             else if ((A02.Text == ""))
             {

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.A00 = new System.Windows.Forms.Button();
             this.A01 = new System.Windows.Forms.Button();
             this.A02 = new System.Windows.Forms.Button();
@@ -230,6 +231,7 @@
             this.Controls.Add(this.A02);
             this.Controls.Add(this.A01);
             this.Controls.Add(this.A00);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Tic Tac Toe";
             this.ResumeLayout(false);
