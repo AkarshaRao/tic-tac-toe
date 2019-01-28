@@ -134,7 +134,7 @@ namespace WindowsFormsApplication1
             {
                 A01.Text = "O";
             }
-            else if ((((A20.Text == A22.Text) && (A20.Text != "")) || ((A11.Text == A01.Text) && (A11.Text != ""))) && (A21.Text == ""))
+            else if ((((A20.Text == A22.Text) && (A20.Text != "")) || ((A11.Text == A01.Text) && (A01.Text != ""))) && (A21.Text == ""))
             {
                 A21.Text = "O";
             }
@@ -160,7 +160,7 @@ namespace WindowsFormsApplication1
             {
                 A01.Text = "O";
             }
-            else if ((A20.Text == ""))
+            else if ((A21.Text == ""))
             {
                 A21.Text = "O";
             }
